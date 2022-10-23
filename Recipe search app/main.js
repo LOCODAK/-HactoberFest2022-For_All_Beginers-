@@ -11,10 +11,10 @@ const APP_key = '85f12954289c38f981a800b0d9c058b8';
 
 //getting input from search bar
 
-searchForm.addEventListener('submit', (e) => {
+searchForm.addEventListener('submit', (e) => {    //Submit button triggers function
     e.preventDefault()
     searchQuery = e.target.querySelector('input').value;
-    fetchAPI();
+    fetchAPI();   // API Function
 
 }
 
